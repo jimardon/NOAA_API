@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>NOAA COOP DOWNLOAD</title>
+    <style>
+      body, #viewDiv {
+        padding: 0;
+        margin: 0;
+        width: 70%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      #viewDiv {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/themes/light/main.css">
+    <link rel="stylesheet" href="css/api-helper.css">
+    <link rel="stylesheet" href="https://cdn.tidesandcurrents.noaa.gov/dev/assets/api-helper/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.tidesandcurrents.noaa.gov/dev/assets/api-helper/css/bootstrap-tour-standalone.min.css">
+
+    <script src="https://cdn.tidesandcurrents.noaa.gov/dev/assets/api-helper/js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.tidesandcurrents.noaa.gov/dev/assets/api-helper/js/bootstrap.min.js"></script>
+    <script src="https://cdn.tidesandcurrents.noaa.gov/dev/assets/api-helper/js/bootstrap-tour-standalone.min.js"></script>
+    <script type="text/javascript" src="http://stuk.github.io/jszip/dist/jszip.min.js"></script>
+    <script type="text/javascript" src="http://stuk.github.io/jszip-utils/dist/jszip-utils.js"></script>
+    <script type="text/javascript" src="http://stuk.github.io/jszip/vendor/FileSaver.js"></script>
+
+    <script src="https://js.arcgis.com/4.12/"></script>
+
+    <script src="js/calendarDateInput3.js" ></script>
+    <script src="js/api-helper.js" ></script>
+
+    <script>
+    require([
+        "esri/Map",
+        "esri/views/MapView",
+        "esri/layers/FeatureLayer",
+        "esri/widgets/Expand",
+        "esri/widgets/BasemapGallery",
+      ],
+
+      function(Map, MapView, FeatureLayer, Expand, BasemapGallery) {
+
+        var map = new Map({
+          basemap: "topo-vector"
+        });
+
+        var view = new MapView({
+          container: "viewDiv",
+          map: map,
+          center: [-117,29], // longitude, latitude
+          zoom: 3
+        });
+
+        var currentstations = new FeatureLayer({
+        url: "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NOS_Observations/CO_OPS_Stations/FeatureServer/2",
+          outFields: ["*"],
+          popupTemplate: {
+            title: "{name}",
+            actions: [
+              {
+                id: "find-station",
+                title: "Station Info"
+              }
+            ],
+            content: [
+              {
+                type: "fields",
+                fieldInfos: [
+                  {
+                    fieldName: "id ",
+                    label: "Station ID"
+                  },
+                  {
+                    fieldName: "state",
+                    label: "State"
+                  },                 
+                  {
+                    fieldName: "affil",
+                    label: "Affiliation"
+                  },                
+                  {
+                    fieldName: "latitude",
+                    label: "Latitude"
+                  },
+                  {
+                    fieldName: "longitude",
+                    label: "Longitude"
+                  },
+                  {
+                    fieldName: "data",
+                    label: "Data"
+                  },
+                  {
+                    fieldName: "metaapi",
+                    label: "Metadata"
+                  },
+                  {
+                    fieldName: "dataapi",
+                    label: "API"
+                  }
+                ]
+              }
+            ]
+          }
+        });
+
+        map.add(currentstations);
+
+        var activestations = new FeatureLayer({
+        url: "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NOS_Observations/CO_OPS_Stations/FeatureServer/0",
+          outFields: ["*"],
+          popupTemplate: {
+            title: "{name}",
+            actions: [
+              {
+                id: "find-station",
+                title: "Station Info"
+              }
+            ],
+            content: [
+              {
+                type: "fields",
+                fieldInfos: [
+                  {
+                    fieldName: "id ",
+                    label: "Station ID"
+                  },
+                  {
+                    fieldName: "state",
+                    label: "State"
+                  },                 
+                  {
+                    fieldName: "affil",
+                    label: "Affiliation"
+                  },                
+                  {
+                    fieldName: "latitude",
+                    label: "Latitude"
+                  },
+                  {
+                    fieldName: "longitude",
+                    label: "Longitude"
+                  },
+                  {
+                    fieldName: "data",
+                    label: "Data"
+                  },
+                  {
+                    fieldName: "metaapi",
+                    label: "Metadata"
+                  },
+                  {
+                    fieldName: "dataapi",
+                    label: "API"
+                  }
+                ]
+              }
+            ]
+          }
+        });
+
+        //map.add(activestations);
+
+        var historicstations = new FeatureLayer({
+        url: "https://idpgis.ncep.noaa.gov/arcgis/rest/services/NOS_Observations/CO_OPS_Stations/FeatureServer/1",
+          outFields: ["*"],
+          popupTemplate: {
+            title: "{name}",
+            actions: [
+              {
+                id: "find-station",
+                title: "Station Info"
+              }
+            ],
+            content: [
+              {
+                type: "fields",
+                fieldInfos: [
+                  {
+                    fieldName: "id ",
+                    label: "Station ID"
+                  },
+                  {
+                    fieldName: "state",
+                    label: "State"
+                  },                 
+                  {
+                    fieldName: "affil",
+                    label: "Affiliation"
+                  },                
+                  {
+                    fieldName: "latitude",
+                    label: "Latitude"
+                  },
+                  {
+                    fieldName: "longitude",
+                    label: "Longitude"
+                  },
+                  {
+                    fieldName: "data",
+                    label: "Data"
+                  },
+                  {
+                    fieldName: "metaapi",
+                    label: "Metadata"
+                  },
+                  {
+                    fieldName: "dataapi",
+                    label: "API"
+                  }
+                ]
+              }
+            ]
+          }
+        });
+
+        map.add(historicstations);
+
+
+        view.when(function() {
+          view.popup.watch("selectedFeature", function(graphic) {
+            var station_number = "";
+            if (graphic) {
+              var graphicTemplate = graphic.getEffectivePopupTemplate();
+              graphicTemplate.actions.items[0].visible = graphic.attributes.website
+                ? true
+                : false;
+              station_number = graphic.attributes.id;
+            }
+            if (station_number != ""){
+              FillStation(station_number)
+            }
+          });
+        });
+
+        var basemapGallery = new BasemapGallery({
+          view: view,
+          container: document.createElement("div")
+        });
+
+        var bgExpand = new Expand({
+          view: view,
+          content: basemapGallery
+        });
+      
+        basemapGallery.watch("activeBasemap", function() {
+          var mobileSize =
+            view.heightBreakpoint === "xsmall" ||
+            view.widthBreakpoint === "xsmall";
+
+          if (mobileSize) {
+            bgExpand.collapse();
+          }
+        });
+
+        view.ui.add(bgExpand, "top-right"); 
+      
+      });
+   
+</script>
+</head>
+
+<body class="light">
+
+    <div id="viewDiv" class="esri-widget"></div>
+
+    <div hidden id="loading-screen">
+        <h2 style="text-align:center; position: relative; margin: auto; top: 45%; display: block; color: rgb(126, 121, 121);">Downloading
+            <img src="images/loading.gif" alt="image" id="loading-screen-image">
+        </h2>
+    </div>
+
+  <section>
+    <style>       
+    section{
+    padding: 0;
+    float: right;
+    margin: 0;
+    width: 30%;
+    overflow: hidden;
+    }
+    </style>
+
+    <div id="container"> 
+      <div id="display-normal">
+
+        <!-- Data API Station Selection -->
+        <div id="d_stationselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <div class="hr-text-bar">
+                    <span class="hr-text">Station</span>
+                </div>
+                <div id="product-station-commentary" class="commentary"></div>
+                <p></p>
+                <label for="d_stationselect" class="generic-dropdown-label">Station:</label>
+                <div class="help-parent">
+                    <a style="cursor:pointer;" target="_blank"  rel="noopener" href="https://tidesandcurrents.noaa.gov/stations.html"></a><img class="help-image" alt="Help" src="images/help.png"></a>
+                    <div class="help-text">
+                        The autocomplete only has <u>active, historic,</u>and <u>current</u> stations available. <b>All other stations have to have their ID's entered in manually. </b>The URL will update and Data Inventory link will become will become available after a 7 characters have been entered.
+                    </div>
+                </div>
+                <div class="autocomplete-form">
+                    <input size ="20" maxlength="20" placeholder="Station Name/ID" type="text" class="autocomplete-input" id="d_stationselect" value="" onpaste="autoComplete('d_stationselect','d_stationselect_matches')" onkeyup="autoComplete('d_stationselect','d_stationselect_matches')">
+                    <div class="matches" id="d_stationselect_matches"></div>
+                    <div class="station-text-clear-button" id="clear-d-station-text" onclick="clearStationTextandMatches('d_stationselect','d_stationselect_matches')">&times;</div>
+                </div>
+                <i id="station-name-text" class="commentary"></i>
+            </div>
+            <p>
+        </div>
+        <div hidden id="stations-product-commentary" class="commentary" style="text-align: right;">
+            <a id="data-inventory-text" onclick="getDataInventoryLink();">Data Inventory</a>
+        </div>
+
+        <!--Data API Product Selection -->
+        <div id="productselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <label for="productselect" class="generic-dropdown-label">Product:</label>
+                <div class="help-parent">
+                    <img class="help-image"  alt="Help" src="images/help.png">
+                    <div class="help-text">
+                        <b>Stations will not have all the products available on the provided list. </b> Check the feedback under the URL to see if a station has the selected product. <p></p>Check the Data Inventory of the station that will appear after entering a 7 digit station ID to see what products are available, then select one of the products from the list here that the station has. 
+                    </div>
+                </div>
+                <select class="generic-dropdown" id="productselect">
+                    <optgroup label="Water Levels" id="waterlevels-group">
+                        <option value="water_level" id="wloption">Water Level (6 min)</option>
+                        <option value="hourly_height">Hourly Height</option>
+                        <option value="high_low">High Low</option>
+                        <option value="daily_mean">Daily Mean</option>
+                        <option value="monthly_mean">Monthly Mean</option>
+                        <option value="one_minute_water_level">One Minute Water Level</option>
+                        <option value="predictions">Tide Predictions</option>
+                        <option value="air_gap">Air Gap</option>
+                    </optgroup>
+                    <optgroup label="Met" id="met-group">
+                        <option value="air_temperature">Air Temperature</option>
+                        <option value="wind">Wind</option>
+                        <option value="air_pressure">Air Pressure</option>
+                        <option value="visibility">Visibility</option>
+                        <option value="humidity">Humidity</option>
+                    </optgroup>
+                    <optgroup label="Physical Oceanographic" id="phys-group">
+                        <option value="water_temperature">Water Temperature</option>
+                        <option value="conductivity">Conductivity</option>
+                        <option value="salinity">Salinity</option>
+                    </optgroup>
+                    <optgroup label="Currents" id="currents-group">
+                        <option value="currents" id="currentsoption">Currents</option>
+                        <!-- <option value="current_predictions">Current Predictions</option>  COMING IN THE FUTURE-->
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+
+        <!-- Data API Date Selection-->
+        <div id="dateselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <div class="hr-text-bar">
+                    <span class="hr-text">Date</span>
+                </div>
+                <br>
+                Date:
+                <div class="help-parent">
+                    <img class="help-image"  alt="Help" src="images/help.png">
+                    <div class="help-text">
+                        Specify a start date and an end date, or specify an number of hours to go back from the provided date (range).
+                        <ul style="margin-left: -20px;">
+                            <li><b>Latest</b> = Last data point available within the last 18 minutes></li>
+                            <li><b>Today </b>= Today's data</li>
+                            <li><b>Recent </b>= Last 3 days of data</li>
+                        </ul>
+                    </div>
+                </div>
+                <select class="generic-dropdown" id="date-range-select">
+                    <option value="latest">Latest</option>
+                    <option value="today">Today</option>
+                    <option value="recent">Recent</option>
+                    <option value="bdate-edate">Start Date and End Date</option>
+                    <option value="bdate-range">Start Date and Range (hours)</option>
+                    <option value="edate-range">End Date and Range (hours)</option>
+                </select>
+            </div>
+            <p></p>
+        </div>
+
+        <!-- Beginning Date Selection-->
+        <div hidden id="bdateselect-section" class="selection-option col-lg-12 col-md-12 col-sm-12 col-centered">
+            <p></p>
+                <label class="generic-dropdown-label">Begin Date:</label>
+                <form>
+                    <script>DateInput('bdate', true, 'YYYYMMDD')</script>
+                </form>
+        </div>
+
+        <!-- Ending Date Selection -->
+        <div hidden id="edateselect-section" class="selection-option col-lg-12 col-md-12 col-sm-12 col-centered">
+                <label class="generic-dropdown-label">End Date:</label>
+                <form>
+                    <script>DateInput('edate', true, 'YYYYMMDD')</script>
+                </form>
+        </div>
+
+        <!-- Range Selection -->
+        <div hidden id="rangeselect-section" class="selection-option col-lg-12 col-md-12 col-sm-12 col-centered">
+            <br>
+            <label for="rangeselect" class="generic-dropdown-label">Range:</label>
+            <i class="commentary" style="float:right; margin-left: 8px;">hours</i>
+            <select id="rangeselect" class="generic-dropdown" onchange="updateDataAPI()" oninput="updateDataAPI()">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+            </select>
+        </div>
+
+        <!-- Data API Datum Selection -->
+        <div id="datumselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <br>
+                <div class="hr-text-bar">
+                    <span class="hr-text">Other</span>
+                </div>
+                <br>
+                <p class="commentary" id="datum-disclaimer">First enter a Station to see available datums</p>
+                <label for="datumselect" class="generic-dropdown-label">Datum:</label>
+                <div class="help-parent">
+                        <img class="help-image"  alt="Help" src="images/help.png">
+                        <div class="help-text"> <b>Datums will be updated after a valid station ID has been entered.</b> <p></p><u>Some datums might be unavailable for some stations, such as current stations.</u><p></p>If a station does not exist, the error message might read 'Wrong Datum'. The station does not have any datums because it might not exist or was entered incorrectly. <p></p> Get more details on <a target="_blank"  rel="noopener" href="https://tidesandcurrents.noaa.gov/datum_options.html">datums and their types here</a>.
+                        </div>
+                </div>
+                <select class="generic-dropdown" id="datumselect">
+                </select>
+                <div id="datum-commentary" class="commentary"></div>
+            </div>
+        </div>
+
+        <!-- Data API Bin Selection -->
+        <div hidden id="binselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <label for="binselect" class="generic-dropdown-label">Bin:</label>
+                <div class="help-parent">
+                    <img class="help-image"  alt="Help" src="images/help.png">
+                    <div class="help-text">Select the bin number for the specified currents station.</div>
+                </div>
+                <input style="float:right;" size ="2" maxlength="2" type="text" class="text-input" id="binselect" value="0" onkeyup="updateDataAPI()">
+            </div>
+        </div>
+
+        <!-- Data API Timezone -->
+        <div id="timezoneselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <label for="timezoneselect" class="generic-dropdown-label">Time Zone: </label>
+                <select class="generic-dropdown" id="timezoneselect"></select>
+            </div>
+        </div>
+
+        <!-- Generic API Unit Selection -->
+        <div id="unitselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <label for="unitsselect" class="generic-dropdown-label">Data Units: </label>
+                <select class="generic-dropdown" id="unitsselect">
+                    <option value="english">English</option>
+                    <option value="metric">Metric</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Data API Interval Selection -->
+        <div hidden id="intervalselect-section" class="selection-option">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-centered">
+                <label for="intervalselect" class="generic-dropdown-label">Interval:</label>
+                <div class="help-parent">
+                    <img class="help-image"  alt="Help" src="images/help.png">
+                    <div class="help-text">The interval for which meteorological data is returned. The default is 6 minutes. Change this option if you want to change the interval for which meteorological data or tide prediction data is returned.
+                        <ul>
+                            <li>Hourly Data is for Meteorological data and Tide Predictions only and might be unavailable for older data.</li>
+                            <li>The High/Low is for Tide Predictions only and might be unavailable for older data.</li>
+                        </ul>
+                    </div>
+                </div>
+                <select class="generic-dropdown" id="intervalselect" onchange = "updateDataAPI()">
+                    <option value="" selected>Default</option>
+                    <option value="h">Hourly Interval (Met/Tide Data only)</option>
+                    <option value="hilo">High/Low Interval (Tide Predictions only)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <div id="download-button-section">
+            <button id="download-button" class="generic-grey-button" onclick=downloadURL()>Download</button>
+            
+        </div>
+
+        <!-- Disclaimers -->
+        <hr>
+        <p style="font-size: 12px;" id="disclaimers">*Note that some fields are unavailable if some selections are left blank or unspecified</p>
+        <p style="font-size: 12px;" >Author: Javier Mardones (javier.mardones@mbakerintl.com)</p>
+
+        </div>
+      </div>
+
+      <div style="text-align: center">
+          <a href="https://www.noaa.gov/"><img src="images/noaa.jpg" alt="noaa-logo"></a>
+          <a href="https://tidesandcurrents.noaa.gov/"><img src="images/tidesandcurrentslogo.jpg" alt="tide-and-currents-logo"></a>
+      </div>
+
+  </section>
+
+  <script>
+      setupStations();
+  </script>
+
+</body>
+</html>

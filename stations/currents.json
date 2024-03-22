@@ -1,0 +1,1959 @@
+{
+  "count": 61,
+  "units": "meters",
+  "stations": [
+    {
+      "project": "Cape Cod PORTS",
+      "deployed": "2020-04-28 00:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/ca0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/ca0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/ca0101/harcon.json"
+      },
+      "height_from_bottom": 4.0,
+      "center_bin_1_dist": 5.5,
+      "id": "ca0101",
+      "name": "Cape Cod Canal, West End",
+      "lat": 41.73749923706055,
+      "lng": -70.6249008178711,
+      "affiliations": "",
+      "portscode": "ca",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/ca0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay South PORTS",
+      "deployed": "2020-12-03 18:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12222,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0102/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0102/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0102/harcon.json"
+      },
+      "height_from_bottom": 20.075,
+      "center_bin_1_dist": 1.41,
+      "id": "cb0102",
+      "name": "Cape Henry LB 2CH",
+      "lat": 36.9594,
+      "lng": -76.0128,
+      "affiliations": "",
+      "portscode": "cs",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0102.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay South PORTS",
+      "deployed": "2020-08-13 12:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12222,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0201/harcon.json"
+      },
+      "height_from_bottom": 13.471,
+      "center_bin_1_dist": 1.4,
+      "id": "cb0201",
+      "name": "York Spit LBB 22 (ATON)",
+      "lat": 37.14,
+      "lng": -76.1383,
+      "affiliations": "",
+      "portscode": "cs",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay South PORTS",
+      "deployed": "2020-10-06 18:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12245,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0301/harcon.json"
+      },
+      "height_from_bottom": 18.35,
+      "center_bin_1_dist": 1.4,
+      "id": "cb0301",
+      "name": "Thimble Shoal LB 18",
+      "lat": 37.01108,
+      "lng": -76.24903,
+      "affiliations": "",
+      "portscode": "cs",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay South PORTS",
+      "deployed": "2020-07-29 15:20:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12245,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0402/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0402/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0402/harcon.json"
+      },
+      "height_from_bottom": 15.477,
+      "center_bin_1_dist": 1.4,
+      "id": "cb0402",
+      "name": "Naval Station Norfolk LB 7",
+      "lat": 36.96295,
+      "lng": -76.33388,
+      "affiliations": "",
+      "portscode": "cs",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0402.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay South PORTS",
+      "deployed": "2020-08-26 14:15:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12245,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0601/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0601/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0601/harcon.json"
+      },
+      "height_from_bottom": 14.822,
+      "center_bin_1_dist": 1.4,
+      "id": "cb0601",
+      "name": "Newport News Channel LB 14",
+      "lat": 36.95602,
+      "lng": -76.41448,
+      "affiliations": "",
+      "portscode": "cs",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0601.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay South PORTS",
+      "deployed": "2018-09-25 16:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12245,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0701/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0701/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0701/harcon.json"
+      },
+      "height_from_bottom": 10.77,
+      "center_bin_1_dist": 3.5,
+      "id": "cb0701",
+      "name": "Dominion Terminal",
+      "lat": 36.96233,
+      "lng": -76.42417,
+      "affiliations": "",
+      "portscode": "cs",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0701.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay North PORTS",
+      "deployed": "2019-12-27 17:46:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12235,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0801/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0801/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0801/harcon.json"
+      },
+      "height_from_bottom": 13.49,
+      "center_bin_1_dist": 1.4,
+      "id": "cb0801",
+      "name": "Rappahannock Shoal Channel LBB 60",
+      "lat": 37.67442,
+      "lng": -76.15472,
+      "affiliations": "",
+      "portscode": "cn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb0801.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay North PORTS",
+      "deployed": "2018-05-07 16:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12264,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1001/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1001/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1001/harcon.json"
+      },
+      "height_from_bottom": 11.91,
+      "center_bin_1_dist": 5.0,
+      "id": "cb1001",
+      "name": "Cove Point LNG Pier",
+      "lat": 38.40283,
+      "lng": -76.38417,
+      "affiliations": "",
+      "portscode": "cn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1001.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay North PORTS",
+      "deployed": "2020-11-06 15:35:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12282,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1101/harcon.json"
+      },
+      "height_from_bottom": 15.784,
+      "center_bin_1_dist": 1.4,
+      "id": "cb1101",
+      "name": "Chesapeake Channel LBB 92",
+      "lat": 38.98215,
+      "lng": -76.38467,
+      "affiliations": "",
+      "portscode": "cn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay North PORTS",
+      "deployed": "2019-08-14 15:31:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12272,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1201/harcon.json"
+      },
+      "height_from_bottom": 0.591,
+      "center_bin_1_dist": 1.4,
+      "id": "cb1201",
+      "name": "Tolchester Front Range",
+      "lat": 39.13997,
+      "lng": -76.33072,
+      "affiliations": "",
+      "portscode": "cn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Chesapeake Bay North PORTS",
+      "deployed": "2016-11-18 17:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12274,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1301/harcon.json"
+      },
+      "height_from_bottom": 0.1,
+      "center_bin_1_dist": 6.0,
+      "id": "cb1301",
+      "name": "Chesapeake City",
+      "lat": 39.53053,
+      "lng": -75.82762,
+      "affiliations": "",
+      "portscode": "cn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cb1301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Corpus Christi PORTS",
+      "deployed": "2021-01-05 17:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0201/harcon.json"
+      },
+      "height_from_bottom": 17.5,
+      "center_bin_1_dist": 1.4,
+      "id": "cc0201",
+      "name": "Aransas Pass LB6",
+      "lat": 27.82608,
+      "lng": -97.01981,
+      "affiliations": "",
+      "portscode": "cc",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Corpus Christi PORTS",
+      "deployed": "2020-06-08 16:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0301/harcon.json"
+      },
+      "height_from_bottom": 0.95,
+      "center_bin_1_dist": 5.5,
+      "id": "cc0301",
+      "name": "Port Aransas, Channel View",
+      "lat": 27.83981,
+      "lng": -97.05314,
+      "affiliations": "",
+      "portscode": "cc",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Corpus Christi PORTS",
+      "deployed": "2020-10-07 10:35:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0401/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0401/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0401/harcon.json"
+      },
+      "height_from_bottom": 7.82,
+      "center_bin_1_dist": 5.5,
+      "id": "cc0401",
+      "name": "MODA, Ingleside",
+      "lat": 27.8177,
+      "lng": -97.2093,
+      "affiliations": "",
+      "portscode": "cc",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cc0401.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Cherry Point PORTS",
+      "deployed": "2020-07-16 21:15:00.0",
+      "retrieved": "",
+      "timezone_offset": "-8",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 18431,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cp0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cp0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cp0101/harcon.json"
+      },
+      "height_from_bottom": 9.4,
+      "center_bin_1_dist": 5.5,
+      "id": "cp0101",
+      "name": "Cherry Point",
+      "lat": 48.86275,
+      "lng": -122.76098,
+      "affiliations": "",
+      "portscode": "cp",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/cp0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Delaware Bay PORTS",
+      "deployed": "2012-05-30 21:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12313,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0301/harcon.json"
+      },
+      "height_from_bottom": 7.43,
+      "center_bin_1_dist": 6.0,
+      "id": "db0301",
+      "name": "Philadelphia",
+      "lat": 39.94620132446289,
+      "lng": -75.13960266113281,
+      "affiliations": "",
+      "portscode": "db",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Delaware Bay PORTS",
+      "deployed": "2020-08-18 13:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0502/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0502/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0502/harcon.json"
+      },
+      "height_from_bottom": 11.196,
+      "center_bin_1_dist": 1.4,
+      "id": "db0502",
+      "name": "Delaware Bay Channel LB 10",
+      "lat": 38.94013,
+      "lng": -75.10486,
+      "affiliations": "",
+      "portscode": "db",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/db0502.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Houston/Galveston PORTS",
+      "deployed": "2020-12-03 13:05:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11324,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g06010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g06010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g06010/harcon.json"
+      },
+      "height_from_bottom": 7.5,
+      "center_bin_1_dist": 1.41,
+      "id": "g06010",
+      "name": "Galveston Bay Entr Channel LB 11",
+      "lat": 29.34222,
+      "lng": -94.74083,
+      "affiliations": "",
+      "portscode": "hg",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g06010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Houston/Galveston PORTS",
+      "deployed": "2017-04-13 13:42:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g08010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g08010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g08010/harcon.json"
+      },
+      "height_from_bottom": 5.334,
+      "center_bin_1_dist": 5.5,
+      "id": "g08010",
+      "name": "Fred Hartman Br., Houston Ship Channel",
+      "lat": 29.703500747680664,
+      "lng": -95.0188980102539,
+      "affiliations": "",
+      "portscode": "hg",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g08010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Houston/Galveston PORTS",
+      "deployed": "2017-11-14 00:01:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g09010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g09010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g09010/harcon.json"
+      },
+      "height_from_bottom": 3.96,
+      "center_bin_1_dist": 6.0,
+      "id": "g09010",
+      "name": "Galveston Channel, west end",
+      "lat": 29.30937957763672,
+      "lng": -94.82063293457031,
+      "affiliations": "",
+      "portscode": "hg",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g09010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Houston/Galveston PORTS",
+      "deployed": "2020-09-30 17:05:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g10010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g10010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g10010/harcon.json"
+      },
+      "height_from_bottom": 8.8,
+      "center_bin_1_dist": 5.0,
+      "id": "g10010",
+      "name": "610 Bridge, Houston Ship Channel",
+      "lat": 29.72570037841797,
+      "lng": -95.26699829101562,
+      "affiliations": "",
+      "portscode": "hg",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/g10010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Great Lakes Real-Time Currents Monitoring",
+      "deployed": "2015-03-24 17:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 14839,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0101/harcon.json"
+      },
+      "height_from_bottom": 4.0,
+      "center_bin_1_dist": 5.0,
+      "id": "gl0101",
+      "name": "Cuyahoga River",
+      "lat": 41.49448,
+      "lng": -81.70292,
+      "affiliations": "",
+      "portscode": "gl",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Great Lakes Real-Time Currents Monitoring",
+      "deployed": "2015-03-25 17:15:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 14847,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0201/harcon.json"
+      },
+      "height_from_bottom": 1.4,
+      "center_bin_1_dist": 5.0,
+      "id": "gl0201",
+      "name": "Maumee River",
+      "lat": 41.62913,
+      "lng": -83.53022,
+      "affiliations": "",
+      "portscode": "gl",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/gl0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Humboldt Bay PORTS",
+      "deployed": "2019-06-25 11:01:00.0",
+      "retrieved": "",
+      "timezone_offset": "-8",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 18622,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/hb0401/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/hb0401/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/hb0401/harcon.json"
+      },
+      "height_from_bottom": 2.4,
+      "center_bin_1_dist": 10.0,
+      "id": "hb0401",
+      "name": "Chevron Pier",
+      "lat": 40.7775,
+      "lng": -124.19661,
+      "affiliations": "",
+      "portscode": "hb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/hb0401.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Jacksonville PORTS",
+      "deployed": "2020-09-11 00:10:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0302/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0302/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0302/harcon.json"
+      },
+      "height_from_bottom": 10.0,
+      "center_bin_1_dist": 1.4,
+      "id": "jx0302",
+      "name": "Mile Point LB 20",
+      "lat": 30.38433,
+      "lng": -81.44217,
+      "affiliations": "",
+      "portscode": "jx",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0302.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Jacksonville PORTS",
+      "deployed": "2020-09-11 00:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0601/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0601/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0601/harcon.json"
+      },
+      "height_from_bottom": 11.595,
+      "center_bin_1_dist": 1.4,
+      "id": "jx0601",
+      "name": "Trout River Cut LB 64",
+      "lat": 30.39853,
+      "lng": -81.62594,
+      "affiliations": "",
+      "portscode": "jx",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0601.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Jacksonville PORTS",
+      "deployed": "2013-12-12 15:07:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0701/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0701/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0701/harcon.json"
+      },
+      "height_from_bottom": null,
+      "center_bin_1_dist": 5.5,
+      "id": "jx0701",
+      "name": "Acosta Bridge",
+      "lat": 30.32266,
+      "lng": -81.66462,
+      "affiliations": "",
+      "portscode": "jx",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/jx0701.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Kings Bay PORTS",
+      "deployed": "2021-01-18 17:05:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/kb0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/kb0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/kb0301/harcon.json"
+      },
+      "height_from_bottom": 14.2,
+      "center_bin_1_dist": 1.4,
+      "id": "kb0301",
+      "name": "Range A2, LB 29, Cumberland Sound",
+      "lat": 30.72482,
+      "lng": -81.4845,
+      "affiliations": "",
+      "portscode": "kb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/kb0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Lake Charles PORTS",
+      "deployed": "2020-10-25 14:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11347,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0101/harcon.json"
+      },
+      "height_from_bottom": 7.2,
+      "center_bin_1_dist": 1.41,
+      "id": "lc0101",
+      "name": "Calcasieu Channel LB 36",
+      "lat": 29.69347,
+      "lng": -93.33118,
+      "affiliations": "",
+      "portscode": "lc",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Lake Charles PORTS",
+      "deployed": "2020-10-01 18:05:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11347,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0201/harcon.json"
+      },
+      "height_from_bottom": 1.0,
+      "center_bin_1_dist": 5.5,
+      "id": "lc0201",
+      "name": "Calcasieu Pass, Cameron Fishing Pier",
+      "lat": 29.76412,
+      "lng": -93.3429,
+      "affiliations": "",
+      "portscode": "lc",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Lake Charles PORTS",
+      "deployed": "2018-01-30 21:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11347,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0301/harcon.json"
+      },
+      "height_from_bottom": 4.2,
+      "center_bin_1_dist": 5.5,
+      "id": "lc0301",
+      "name": "Lake Charles City Docks",
+      "lat": 30.21780014038086,
+      "lng": -93.24949645996094,
+      "affiliations": "",
+      "portscode": "lc",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lc0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Lower Mississippi River PORTS",
+      "deployed": "2020-06-19 15:55:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11368,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0101/harcon.json"
+      },
+      "height_from_bottom": 14.3,
+      "center_bin_1_dist": 5.5,
+      "id": "lm0101",
+      "name": "First Street Wharf",
+      "lat": 29.92244,
+      "lng": -90.07114,
+      "affiliations": "",
+      "portscode": "lm",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Lower Mississippi River PORTS",
+      "deployed": "2020-11-05 04:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11370,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0201/harcon.json"
+      },
+      "height_from_bottom": 14.1,
+      "center_bin_1_dist": 5.5,
+      "id": "lm0201",
+      "name": "Port Allen",
+      "lat": 30.43547,
+      "lng": -91.20056,
+      "affiliations": "",
+      "portscode": "lm",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/lm0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Mobile Bay PORTS",
+      "deployed": "2020-11-04 15:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mb0302/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mb0302/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mb0302/harcon.json"
+      },
+      "height_from_bottom": 2.0,
+      "center_bin_1_dist": 5.5,
+      "id": "mb0302",
+      "name": "Cochrane Bridge",
+      "lat": 30.73295,
+      "lng": -88.04166,
+      "affiliations": "",
+      "portscode": "mb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mb0302.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Morgan City PORTS",
+      "deployed": "2020-11-17 09:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mc0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mc0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mc0101/harcon.json"
+      },
+      "height_from_bottom": 3.2,
+      "center_bin_1_dist": 3.5,
+      "id": "mc0101",
+      "name": "Atchafalaya Bar Channel",
+      "lat": 29.318,
+      "lng": -91.42967,
+      "affiliations": "",
+      "portscode": "mc",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mc0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Matagorda Bay PORTS",
+      "deployed": "2021-02-08 10:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0101/harcon.json"
+      },
+      "height_from_bottom": 5.7,
+      "center_bin_1_dist": 5.0,
+      "id": "mg0101",
+      "name": "Matagorda Ship Channel Marker 19",
+      "lat": 28.44769,
+      "lng": -96.35617,
+      "affiliations": "",
+      "portscode": "mg",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Matagorda Bay PORTS",
+      "deployed": "2018-07-30 00:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0201/harcon.json"
+      },
+      "height_from_bottom": 15.5,
+      "center_bin_1_dist": 4.5,
+      "id": "mg0201",
+      "name": "Matagorda Entrance Channel",
+      "lat": 28.42667007446289,
+      "lng": -96.33000183105469,
+      "affiliations": "",
+      "portscode": "mg",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mg0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Miami PORTS",
+      "deployed": "2020-08-05 11:49:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0101/harcon.json"
+      },
+      "height_from_bottom": 35.4,
+      "center_bin_1_dist": 1.4,
+      "id": "mi0101",
+      "name": "Miami LB M",
+      "lat": 25.76842,
+      "lng": -80.08367,
+      "affiliations": "",
+      "portscode": "mi",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Miami PORTS",
+      "deployed": "2021-01-15 13:50:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0201/harcon.json"
+      },
+      "height_from_bottom": 13.88,
+      "center_bin_1_dist": 1.4,
+      "id": "mi0201",
+      "name": "Miami LB1",
+      "lat": 25.76293,
+      "lng": -80.09013,
+      "affiliations": "",
+      "portscode": "mi",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Miami PORTS",
+      "deployed": "2021-01-15 16:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0301/harcon.json"
+      },
+      "height_from_bottom": 9.1,
+      "center_bin_1_dist": 1.4,
+      "id": "mi0301",
+      "name": "Miami LB3",
+      "lat": 25.76097,
+      "lng": -80.09697,
+      "affiliations": "",
+      "portscode": "mi",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/mi0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "New York/New Jersey PORTS",
+      "deployed": "2017-05-10 12:01:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 12327,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n03020/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n03020/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n03020/harcon.json"
+      },
+      "height_from_bottom": 0.6,
+      "center_bin_1_dist": 1.88,
+      "id": "n03020",
+      "name": "The Narrows",
+      "lat": 40.60599899291992,
+      "lng": -74.03810119628906,
+      "affiliations": "",
+      "portscode": "ny",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n03020.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "New York/New Jersey PORTS",
+      "deployed": "2020-12-11 01:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n06010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n06010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n06010/harcon.json"
+      },
+      "height_from_bottom": 17.858,
+      "center_bin_1_dist": 1.4,
+      "id": "n06010",
+      "name": "Kill Van Kull LB 14",
+      "lat": 40.6436,
+      "lng": -74.1389,
+      "affiliations": "",
+      "portscode": "ny",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n06010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "New York/New Jersey PORTS",
+      "deployed": "2020-12-11 01:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n07010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n07010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n07010/harcon.json"
+      },
+      "height_from_bottom": 17.93,
+      "center_bin_1_dist": 1.4,
+      "id": "n07010",
+      "name": "Newark Bay Entrance LB 18",
+      "lat": 40.6471,
+      "lng": -74.1555,
+      "affiliations": "",
+      "portscode": "ny",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/n07010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Narragansett Bay PORTS",
+      "deployed": "2018-10-09 12:01:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nb0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nb0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nb0301/harcon.json"
+      },
+      "height_from_bottom": 0.6,
+      "center_bin_1_dist": 2.1,
+      "id": "nb0301",
+      "name": "Quonset Point",
+      "lat": 41.58369827270508,
+      "lng": -71.39700317382812,
+      "affiliations": "",
+      "portscode": "nb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nb0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "New London PORTS",
+      "deployed": "2018-11-16 21:28:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nl0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nl0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nl0101/harcon.json"
+      },
+      "height_from_bottom": 8.17,
+      "center_bin_1_dist": 5.5,
+      "id": "nl0101",
+      "name": "Groton, Thames River, Pier 6",
+      "lat": 41.39175,
+      "lng": -72.0923,
+      "affiliations": "",
+      "portscode": "nl",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/nl0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "San Francisco Bay PORTS",
+      "deployed": "2020-04-28 13:31:00.0",
+      "retrieved": "",
+      "timezone_offset": "-8",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s06010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s06010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s06010/harcon.json"
+      },
+      "height_from_bottom": 7.6,
+      "center_bin_1_dist": 5.0,
+      "id": "s06010",
+      "name": "Martinez-AMORCO Pier",
+      "lat": 38.03463,
+      "lng": -122.12525,
+      "affiliations": "",
+      "portscode": "sf",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s06010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "San Francisco Bay PORTS",
+      "deployed": "2020-11-11 19:01:00.0",
+      "retrieved": "",
+      "timezone_offset": "-8",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s08010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s08010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s08010/harcon.json"
+      },
+      "height_from_bottom": 13.3,
+      "center_bin_1_dist": 1.41,
+      "id": "s08010",
+      "name": "Southampton Shoal Channel LB 6",
+      "lat": 37.91625,
+      "lng": -122.42233,
+      "affiliations": "",
+      "portscode": "sf",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s08010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "San Francisco Bay PORTS",
+      "deployed": "2020-09-17 19:41:00.0",
+      "retrieved": "",
+      "timezone_offset": "-8",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 18649,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s09010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s09010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s09010/harcon.json"
+      },
+      "height_from_bottom": 13.3,
+      "center_bin_1_dist": 1.41,
+      "id": "s09010",
+      "name": "Oakland Outer Harbor LB3",
+      "lat": 37.8082,
+      "lng": -122.34434,
+      "affiliations": "",
+      "portscode": "sf",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s09010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "San Francisco Bay PORTS",
+      "deployed": "2020-09-17 20:51:00.0",
+      "retrieved": "",
+      "timezone_offset": "-8",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s10010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s10010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s10010/harcon.json"
+      },
+      "height_from_bottom": 13.34,
+      "center_bin_1_dist": 1.41,
+      "id": "s10010",
+      "name": "Oakland Inner Harbor LB4",
+      "lat": 37.80097,
+      "lng": -122.34775,
+      "affiliations": "",
+      "portscode": "sf",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/s10010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Sabine Neches PORTS",
+      "deployed": "2020-11-11 15:05:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11342,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0101/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0101/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0101/harcon.json"
+      },
+      "height_from_bottom": 5.9,
+      "center_bin_1_dist": 1.4,
+      "id": "sn0101",
+      "name": "Sabine Bank Channel LBB 34",
+      "lat": 29.6735,
+      "lng": -93.8355,
+      "affiliations": "",
+      "portscode": "sn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0101.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Sabine Neches PORTS",
+      "deployed": "2019-09-11 20:05:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11342,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0201/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0201/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0201/harcon.json"
+      },
+      "height_from_bottom": 4.6,
+      "center_bin_1_dist": 5.5,
+      "id": "sn0201",
+      "name": "Sabine Pass, USCG Base",
+      "lat": 29.728599548339844,
+      "lng": -93.87000274658203,
+      "affiliations": "",
+      "portscode": "sn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0201.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Sabine Neches PORTS",
+      "deployed": "2020-10-19 15:35:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11342,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0301/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0301/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0301/harcon.json"
+      },
+      "height_from_bottom": 1.96,
+      "center_bin_1_dist": 5.5,
+      "id": "sn0301",
+      "name": "Sabine Front Range",
+      "lat": 29.75806,
+      "lng": -93.89,
+      "affiliations": "",
+      "portscode": "sn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0301.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Sabine Neches PORTS",
+      "deployed": "2019-09-22 22:00:01.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11342,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0401/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0401/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0401/harcon.json"
+      },
+      "height_from_bottom": 3.6,
+      "center_bin_1_dist": 5.5,
+      "id": "sn0401",
+      "name": "West Port Arthur Bridge",
+      "lat": 29.82361,
+      "lng": -93.96472,
+      "affiliations": "",
+      "portscode": "sn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0401.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Sabine Neches PORTS",
+      "deployed": "2018-11-06 09:30:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11343,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0501/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0501/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0501/harcon.json"
+      },
+      "height_from_bottom": 3.1,
+      "center_bin_1_dist": 5.5,
+      "id": "sn0501",
+      "name": "Rainbow Bridge",
+      "lat": 29.98111,
+      "lng": -93.87111,
+      "affiliations": "",
+      "portscode": "sn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0501.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Sabine Neches PORTS",
+      "deployed": "2020-05-21 14:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11343,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0601/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0601/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0601/harcon.json"
+      },
+      "height_from_bottom": 5.5,
+      "center_bin_1_dist": 5.5,
+      "id": "sn0601",
+      "name": "Port of Beaumont",
+      "lat": 30.07972,
+      "lng": -94.08623,
+      "affiliations": "",
+      "portscode": "sn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0601.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Sabine Neches PORTS",
+      "deployed": "2019-09-25 14:51:00.0",
+      "retrieved": "",
+      "timezone_offset": "-6",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11342,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0701/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0701/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0701/harcon.json"
+      },
+      "height_from_bottom": 1.0,
+      "center_bin_1_dist": 5.5,
+      "id": "sn0701",
+      "name": "Port Arthur",
+      "lat": 29.8667,
+      "lng": -93.93111,
+      "affiliations": "",
+      "portscode": "sn",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/sn0701.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Tampa Bay PORTS",
+      "deployed": "2020-02-03 16:01:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11412,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t01010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t01010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t01010/harcon.json"
+      },
+      "height_from_bottom": 0.6,
+      "center_bin_1_dist": 1.5,
+      "id": "t01010",
+      "name": "Sunshine Skyway Bridge ADCP",
+      "lat": 27.62065,
+      "lng": -82.65525,
+      "affiliations": "",
+      "portscode": "tb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t01010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Tampa Bay PORTS",
+      "deployed": "2017-01-17 17:05:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": 11412,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t02010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t02010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t02010/harcon.json"
+      },
+      "height_from_bottom": 0.7,
+      "center_bin_1_dist": 1.44,
+      "id": "t02010",
+      "name": "Old Port Tampa",
+      "lat": 27.86287,
+      "lng": -82.55373,
+      "affiliations": "",
+      "portscode": "tb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t02010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Tampa Bay PORTS",
+      "deployed": "2020-09-15 13:00:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t03010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t03010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t03010/harcon.json"
+      },
+      "height_from_bottom": null,
+      "center_bin_1_dist": 1.44,
+      "id": "t03010",
+      "name": "Port Manatee",
+      "lat": 27.66395,
+      "lng": -82.59877,
+      "affiliations": "",
+      "portscode": "tb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t03010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    },
+    {
+      "project": "Tampa Bay PORTS",
+      "deployed": "2019-08-19 12:16:00.0",
+      "retrieved": "",
+      "timezone_offset": "-5",
+      "observedst": true,
+      "project_type": "PORTS",
+      "noaachart": null,
+      "deployments": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t04010/deployments.json"
+      },
+      "bins": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t04010/bins.json"
+      },
+      "harmonicConstituents": {
+        "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t04010/harcon.json"
+      },
+      "height_from_bottom": 10.192,
+      "center_bin_1_dist": 1.4,
+      "id": "t04010",
+      "name": "Egmont Channel LB 9",
+      "lat": 27.60424,
+      "lng": -82.86742,
+      "affiliations": "",
+      "portscode": "tb",
+      "products": null,
+      "disclaimers": null,
+      "notices": null,
+      "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/t04010.json",
+      "expand": "deployments,bins,harcon",
+      "tideType": ""
+    }
+  ],
+  "self": null
+}
